@@ -30,6 +30,26 @@
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
 				}, 100);
+				$('.flexslider').slick({
+					infinite: true,
+					arrows: false,
+					fade: true,
+					asNavFor: '.carousel',
+				})
+				// .on('setPosition', function(event, slick) {
+				// 	slick.$slides.css('height', slick.$slideTrack.height() + 'px');
+				// })
+				$('.carousel').slick({
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					asNavFor: '.flexslider',
+					infinite: true,
+					//dots: true,
+					arrows: true,
+					//centerMode: true,
+					focusOnSelect: true,
+					variableWidth: true,
+				})
 			});
 
 		// Mobile?

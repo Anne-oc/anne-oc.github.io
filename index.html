@@ -1,111 +1,119 @@
 ---
 layout: landing
 ---
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<h2>{{ site.title }}</h2>
+		<p>{{ site.description | markdownify }}</p>
+	</div>
+	<a href="#one" class="more scrolly">Learn More</a>
+</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<div class="video">
-								<iframe src="https://www.youtube.com/embed/u3tDKsTqfFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+	<div class="inner">
+		<header class="major">
+			<h2 class="large-title">Artist Statement</h2>
+				<p>Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a este es a través de la danza contemporánea y se desplaza a otras disciplinas y áreas de interés, como la danza aérea, la salsa, y la danza movimiento terapia.</p>
+				<p>Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y apreciación de este como cuestión vital y de bien-estar. lo que traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.</p>
+				<p>Mi reflexión en torno a la creación gira en cómo proveer experiencias sensoriales que transformen los microuniversos de quien participe de un evento escénico de carácter multi, inter y transdisciplinar en busca de un mismo fin: conmover. Pues, lo más lindo de las artes escénicas es el encuentro con el otro y la construcción de sentido y lenguaje por medio del diálogo de universos.</p>
+				</header>
+				<div class="video">
+					<iframe src="https://www.youtube.com/embed/u3tDKsTqfFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+		<!-- Gallery -->
+		<section id="gallery" class="wrapper style3 special">
+			<!--<div class="inner">-->
+				<h2>Galería</h2>
+				<div class="gallery-content">
+					<div class="flexslider">
+						{% for image in site.static_files %}
+							{% if image.path contains 'images/gallery' %}
+								<div class="slide">
+									<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+					<div class="carousel-container">
+						<div class="carousel">
+							{% for image in site.static_files %}
+								{% if image.path contains 'images/gallery' %}
+									<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+								{% endif %}
+							{% endfor %}
 						</div>
-					</section>
-				<!-- Video -->
-				<section id="video">
-				</section>
+					</div>
+				</div>
+			<!--</div>-->
+		</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+		<!-- Two -->
+		<!--
+		<section id="two" class="wrapper alt style2">
+		<section class="spotlight">
+		<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+		<h2>Magna primis lobortis<br />
+		sed ullamcorper</h2>
+		<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+	</div>
+</section>
+<section class="spotlight">
+<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+<h2>Tortor dolore feugiat<br />
+elementum magna</h2>
+<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+</div>
+</section>
+<section class="spotlight">
+<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+<h2>Augue eleifend aliquet<br />
+sed condimentum</h2>
+<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+</div>
+</section>
+</section>
+-->
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="user-card">
-									<div class="image round">
-										<img src="images/pic01.jpg">
-									</div>
-									<div class="text">
-										<h3>Arcu accumsan</h3>
-										<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-									</div>
-								</li>
-								<li class="user-card">
-									<div class="image round">
-										<img src="images/pic01.jpg">
-									</div>
-									<div class="text">
-										<h3>Arcu accumsan</h3>
-										<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-									</div>
-								</li>
-								<li class="user-card">
-									<div class="image round">
-										<img src="images/pic01.jpg">
-									</div>
-									<div class="text">
-										<h3>Arcu accumsan</h3>
-										<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-									</div>
-								</li>
-							</ul>
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+			<h2>Evaluaciones</h2>
+			<!--<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+				fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>-->
+			</header>
+			<ul class="features">
+				{% for evaluation in site.evaluations %}
+					<a href="{{site.baseurl}}{{evaluation.url}}" style="border-bottom: none;">
+				<li class="user-card">
+						<div class="image round">
+							<img src="{{site.baseurl}}{{evaluation.image}}">
 						</div>
-					</section>
-
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
+						<div class="text">
+							<h3>{{evaluation.name}}</h3>
+							<p>{{evaluation.description}}</p>
 						</div>
-					</section>
+				</li>
+					</a>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
+	<!-- CTA -->
+	<section id="cta" class="wrapper style4">
+		<div class="inner">
+			<header>
+				<h2>Arcue ut vel commodo</h2>
+				<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+			</header>
+			<ul class="actions vertical">
+				<li><a href="#" class="button fit special">Activate</a></li>
+				<li><a href="#" class="button fit">Learn More</a></li>
+			</ul>
+		</div>
+	</section>
