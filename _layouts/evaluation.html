@@ -20,13 +20,14 @@
 
         <section class="wrapper style5">
           <div class="inner essay">
+          <h5 style="cursor: pointer;"><a onclick="window.history.back();">Atrás</a></h5>
             <div class="ev-header-content">
               <div class="image round">
                 <img src="{{site.baseurl}}{{page.image}}">
               </div>
               <div class="ev-header">
                 <h2>{{page.title}}</h2>
-                <h6>{{page.header}}</h6>
+                <h6>{{page.header | newline_to_br}}</h6>
               </div>
             </div>
             {{ content }}

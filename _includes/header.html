@@ -7,8 +7,11 @@
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>EVALUACIONES</li>
+            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+            <li><a href="{{site.baseurl}}/index.html#artiststatement" class="more scrolly">Artist Statement</a></li>
+            <li><a href="{{site.baseurl}}/index.html#gallery" class="more scrolly">Galería</a></li>
+            <li><a href="{{site.baseurl}}/index.html#essays" class="more scrolly">Ensayos</a></li>
+            <li><a href="{{site.baseurl}}/index.html#evaluations" class="more scrolly">Evaluaciones</a></li>
             {% for my_page in site.evaluations %}
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">- {{ my_page.name }}</a></li>

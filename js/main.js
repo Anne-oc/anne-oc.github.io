@@ -30,6 +30,11 @@
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
 				}, 100);
+				$('.videoslider').slick({
+					arrows: true,
+					fade: true,
+					dots: true,
+				})
 				$('.flexslider').slick({
 					infinite: true,
 					arrows: false,

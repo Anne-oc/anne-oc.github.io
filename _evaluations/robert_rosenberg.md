@@ -4,7 +4,7 @@ name: Robert Rosenberg
 description: Veo a una persona que empezó con condiciones normales y siguió progresando hasta lograr un muy buen nivel de transformación a través de la educación somática.
 title: Evaluación de Ana María Oviedo
 header: |
-  Profesor Robert E (Bobby) Rosenberg, <br/>
+  Profesor Robert E (Bobby) Rosenberg,
   Área de Somática.
 image: /images/evaluations/bobby.png
 ---

@@ -4,8 +4,8 @@ name: Valentina Ramírez
 description: Trata a las personas con quienes trabaja de la misma forma que trata su cuerpo, con cuidado y dedicación.
 title: Evaluación de pares de Ana María Oviedo
 header: |
-  Valentina Ramírez, <br/>
-  Estudiante.
+  Valentina Ramírez,
+  Artista escénica con enfasis en danza y circo.
 image: /images/evaluations/valeramirez.png
 ---
 Ana María y yo hemos estado en el mismo semestre desde que iniciamos la carrera de Artes Escénicas de la Pontificia Universidad Javeriana. Hemos mantenido una relación cercana en la medida en que compartimos reflexiones constantes acerca de nuestro proceso como artistas escénicas y, sobre todo, como ejecutantes creadoras. Es significativo para esta evaluación de pares tener en cuenta que, además de estar presente durante el proceso de Ana María, también he podido escucharla verbalizar su aprendizaje de manera clara para ayudar a los demás a encontrar su propia forma de aproximarse al cuerpo.

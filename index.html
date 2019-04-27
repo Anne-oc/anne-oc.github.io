@@ -5,61 +5,117 @@ layout: landing
 <section id="banner">
 	<div class="inner">
 		<h2>{{ site.title }}</h2>
-		<p>{{ site.description | markdownify }}</p>
+		<p>{{ site.description | markdownify | newline_to_br }}</p>
 	</div>
-	<a href="#one" class="more scrolly">Learn More</a>
+	<a href="#artiststatement" class="more scrolly">Learn More</a>
 </section>
 
 <!-- One -->
-<section id="one" class="wrapper style1 special">
+<section id="artiststatement" class="wrapper style1 special">
 	<div class="inner">
 		<header class="major">
 			<h2 class="large-title">Artist Statement</h2>
-				<p>Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a este es a través de la danza contemporánea y se desplaza a otras disciplinas y áreas de interés, como la danza aérea, la salsa, y la danza movimiento terapia.</p>
-				<p>Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y apreciación de este como cuestión vital y de bien-estar. lo que traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.</p>
-				<p>Mi reflexión en torno a la creación gira en cómo proveer experiencias sensoriales que transformen los microuniversos de quien participe de un evento escénico de carácter multi, inter y transdisciplinar en busca de un mismo fin: conmover. Pues, lo más lindo de las artes escénicas es el encuentro con el otro y la construcción de sentido y lenguaje por medio del diálogo de universos.</p>
-				</header>
-				<div class="video">
-					<iframe src="https://www.youtube.com/embed/u3tDKsTqfFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>
-		<!-- Gallery -->
-		<section id="gallery" class="wrapper style3 special">
-			<!--<div class="inner">-->
-				<h2>Galería</h2>
-				<div class="gallery-content">
-					<div class="flexslider">
-						{% for image in site.static_files %}
-							{% if image.path contains 'images/gallery' %}
-								<div class="slide">
-									<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
-								</div>
-							{% endif %}
-						{% endfor %}
-					</div>
-					<div class="carousel-container">
-						<div class="carousel">
-							{% for image in site.static_files %}
-								{% if image.path contains 'images/gallery' %}
-									<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
-								{% endif %}
-							{% endfor %}
-						</div>
-					</div>
-				</div>
-			<!--</div>-->
-		</section>
-
-		<!-- Two -->
-		<!--
-		<section id="two" class="wrapper alt style2">
-		<section class="spotlight">
-		<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-		<h2>Magna primis lobortis<br />
-		sed ullamcorper</h2>
-		<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+			<p>Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a este es a través de la danza contemporánea y se desplaza a otras disciplinas y áreas de interés, como la danza aérea, la salsa, y la danza movimiento terapia.</p>
+			<p>Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y apreciación de este como cuestión vital y de bien-estar. lo que traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.</p>
+			<p>Mi reflexión en torno a la creación gira en cómo proveer experiencias sensoriales que transformen los microuniversos de quien participe de un evento escénico de carácter multi, inter y transdisciplinar en busca de un mismo fin: conmover. Pues, lo más lindo de las artes escénicas es el encuentro con el otro y la construcción de sentido y lenguaje por medio del diálogo de universos.</p>
+		</header>
 	</div>
+</section>
+
+<!-- Videos -->
+<section id="videos" class="wrapper style2 special">
+	<!--<div class="inner">-->
+	<h2>Videos</h2>
+	<div class="gallery-content">
+		<div class="videoslider">
+			{% for id in site.video-ids %}
+			<div class="slide">
+				<iframe src="https://www.youtube.com/embed/{{id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			{% endfor %}
+		</div>
+		<!--
+		<div class="carousel-container">
+			<div class="carousel">
+				{% for image in site.static_files %}
+				{% if image.path contains 'images/gallery' %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+		-->
+	</div>
+	<!--</div>-->
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="wrapper style3 special">
+	<!--<div class="inner">-->
+	<h2>Galería</h2>
+	<div class="gallery-content">
+		<div class="flexslider">
+			{% for image in site.static_files %}
+			{% if image.path contains 'images/gallery' %}
+			<div class="slide">
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+			</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+		<div class="carousel-container">
+			<div class="carousel">
+				{% for image in site.static_files %}
+				{% if image.path contains 'images/gallery' %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	<!--</div>-->
+</section>
+
+<!-- Essays -->
+<section id="essays" class="wrapper style7 special">
+	<h2>Ensayos</h2>
+	<ul>
+		{% for essay in site.primary-essays %}
+		<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;">
+			<li class="essay-card">
+				<i class="fas fa-file-pdf"></i>
+				<div class="text">
+					<h4>{{essay}}</h4>
+				</div>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
+	<div class="inner">
+		<ul class="sec-essays">
+			{% for essay in site.secondary-essays %}
+			<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;">
+				<li class="essay-card-s">
+					<i class="fas fa-file-pdf"></i>
+					<div class="text">
+						<h4>{{essay}}</h4>
+					</div>
+				</li>
+			</a>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<!-- Two -->
+<!--
+<section id="two" class="wrapper alt style2">
+<section class="spotlight">
+<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+<h2>Magna primis lobortis<br />
+sed ullamcorper</h2>
+<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+</div>
 </section>
 <section class="spotlight">
 <div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
@@ -79,41 +135,48 @@ sed condimentum</h2>
 -->
 
 <!-- Three -->
-<section id="three" class="wrapper style3 special">
+<section id="evaluations" class="wrapper style3 special">
 	<div class="inner">
 		<header class="major">
 			<h2>Evaluaciones</h2>
 			<!--<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-				fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>-->
-			</header>
-			<ul class="features">
-				{% for evaluation in site.evaluations %}
-					<a href="{{site.baseurl}}{{evaluation.url}}" style="border-bottom: none;">
+			fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>-->
+		</header>
+		<ul class="features">
+			{% for evaluation in site.evaluations %}
+			<a href="{{site.baseurl}}{{evaluation.url}}" style="border-bottom: none;">
 				<li class="user-card">
-						<div class="image round">
-							<img src="{{site.baseurl}}{{evaluation.image}}">
-						</div>
-						<div class="text">
-							<h3>{{evaluation.name}}</h3>
-							<p>{{evaluation.description}}</p>
-						</div>
-				</li>
-					</a>
-				{% endfor %}
-			</ul>
-		</div>
-	</section>
+					<div class="image round">
+						<img src="{{site.baseurl}}{{evaluation.image}}">
+					</div>
+					<div class="text">
+						<h3>
+							{% if evaluation.name == "Ana Oviedo" %}
+							Autoevaluación
+							{% else %}
+							{{evaluation.name}}
+							{% endif %}
+						</h3>
 
-	<!-- CTA -->
-	<section id="cta" class="wrapper style4">
-		<div class="inner">
-			<header>
-				<h2>Arcue ut vel commodo</h2>
-				<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-			</header>
-			<ul class="actions vertical">
-				<li><a href="#" class="button fit special">Activate</a></li>
-				<li><a href="#" class="button fit">Learn More</a></li>
-			</ul>
-		</div>
-	</section>
+						<p>{{evaluation.description}}</p>
+					</div>
+				</li>
+			</a>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="wrapper style4">
+	<div class="inner">
+		<header>
+			<h2>Arcue ut vel commodo</h2>
+			<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+		</header>
+		<ul class="actions vertical">
+			<li><a href="#" class="button fit special">Activate</a></li>
+			<li><a href="#" class="button fit">Learn More</a></li>
+		</ul>
+	</div>
+</section>
