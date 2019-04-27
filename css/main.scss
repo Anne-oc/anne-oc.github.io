@@ -1996,17 +1996,32 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.ev-header-content {
 		position: relative;
+		& .image {
+			@include breakpoint(xsmall) {
+				left: 50%;
+				transform: translate(-50%, 0%);
+			}
+		}
 	}
 
 	.ev-header {
 		h2, h6 {
 			margin: 0;
 		}
+		@include breakpoint(xsmall) {
+			margin-left: 0;
+			margin-bottom: 2em;
+			display: block;
+			position: static;
+			font-size: inherit;
+			text-align: center;
+		}
 		margin-left: 2em;
 		display: inline-block;
 		position: absolute;
 		font-size: 20px;
 		bottom: 1em;
+
 	}
 
 	.inner.essay p {
