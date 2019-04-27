@@ -951,6 +951,11 @@ $baseurl: '{{ site.baseurl }}/images';
 	.sec-essays {
 		border-top: 2px solid rgba(0,0,0,0.1);
 		margin: 2em 0;
+		h4 {
+			@include breakpoint(small) {
+				font-size: 0.8em !important;
+			}
+		}
 	}
 
 	.essay-card-s {
