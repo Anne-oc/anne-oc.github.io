@@ -81,7 +81,7 @@ layout: landing
 	<h2>Ensayos</h2>
 	<ul>
 		{% for essay in site.primary-essays %}
-		<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;">
+		<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;" class="hideme">
 			<li class="essay-card">
 				<i class="fas fa-file-pdf"></i>
 				<div class="text">
@@ -94,7 +94,7 @@ layout: landing
 	<div class="inner">
 		<ul class="sec-essays">
 			{% for essay in site.secondary-essays %}
-			<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;">
+			<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;" class="hideme">
 				<li class="essay-card-s">
 					<i class="fas fa-file-pdf"></i>
 					<div class="text">
@@ -144,7 +144,7 @@ sed condimentum</h2>
 		</header>
 		<ul class="features">
 			{% for evaluation in site.evaluations %}
-			<a href="{{site.baseurl}}{{evaluation.url}}" style="border-bottom: none;">
+			<a href="{{site.baseurl}}{{evaluation.url}}" style="border-bottom: none;" class="hideme">
 				<li class="user-card">
 					<div class="image round">
 						<img src="{{site.baseurl}}{{evaluation.image}}">

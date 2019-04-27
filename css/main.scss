@@ -2184,6 +2184,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: justify;
 	}
 
+	.hideme {
+		opacity: 0;
+	}
+
 	//.slick-slide {
 	//	height: 5em;
 	//	& img {

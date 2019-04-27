@@ -41,9 +41,6 @@
 					fade: true,
 					asNavFor: '.carousel',
 				})
-				// .on('setPosition', function(event, slick) {
-				// 	slick.$slides.css('height', slick.$slideTrack.height() + 'px');
-				// })
 				$('.carousel').slick({
 					slidesToShow: 5,
 					slidesToScroll: 1,
@@ -55,6 +52,16 @@
 					focusOnSelect: true,
 					variableWidth: true,
 				})
+				$(window).scroll(function() {
+					$('.hideme').each(function(i){
+						var bottom_of_object = $(this).position().top + $(this).outerHeight();
+						var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+						if (bottom_of_window > bottom_of_object ) {
+							$(this).animate({'opacity':'1'},800);
+						}
+					})
+				});
 			});
 
 		// Mobile?
