@@ -2145,7 +2145,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.ev-header-content {
 		position: relative;
-		height: 12em;
+		@include breakpoint(xsmall) {
+			height: auto;
+		}
+		height: 11em;
 		& .image {
 			@include breakpoint(xsmall) {
 				left: 50%;
@@ -2159,6 +2162,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	.ev-title {
 		@include breakpoint(xsmall) {
 			text-align: center;
+			width: 100%;
+			float: none;
 		}
 		@include breakpoint(medium) {
 			position: inherit;
@@ -2172,6 +2177,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	.ev-subtitle {
 		@include breakpoint(xsmall) {
 			text-align: center;
+			width: 100%;
+			float: none;
 		}
 		display: inline-block;;
 		float: left;
