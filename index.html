@@ -5,7 +5,7 @@ layout: landing
 <section id="banner">
 	<div class="inner">
 		<h2>{{ site.title }}</h2>
-		<p>{{ site.description | markdownify | newline_to_br }}</p>
+		<p><i>{{ site.description | markdownify | newline_to_br }}</i></p>
 	</div>
 	<a href="#artiststatement" class="more scrolly">Learn More</a>
 </section>
@@ -15,9 +15,7 @@ layout: landing
 	<div class="inner">
 		<header class="major">
 			<h2 class="large-title">Artist Statement</h2>
-			<p>Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a este es a través de la danza contemporánea y se desplaza a otras disciplinas y áreas de interés, como la danza aérea, la salsa, y la danza movimiento terapia.</p>
-			<p>Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y apreciación de este como cuestión vital y de bien-estar. lo que traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.</p>
-			<p>Mi reflexión en torno a la creación gira en cómo proveer experiencias sensoriales que transformen los microuniversos de quien participe de un evento escénico de carácter multi, inter y transdisciplinar en busca de un mismo fin: conmover. Pues, lo más lindo de las artes escénicas es el encuentro con el otro y la construcción de sentido y lenguaje por medio del diálogo de universos.</p>
+			<p>{{site.artist_statement | newline_to_br}}</p>
 		</header>
 	</div>
 </section>
@@ -26,7 +24,7 @@ layout: landing
 <section id="videos" class="wrapper style8 special">
 	<!--<div class="inner">-->
 	<h2>Videos</h2>
-	<div class="gallery-content">
+	<div class="inner gallery-content">
 		<div class="videoslider">
 			{% for id in site.video-ids %}
 			<div class="slide">
@@ -78,30 +76,38 @@ layout: landing
 
 <!-- Essays -->
 <section id="essays" class="wrapper style7 special">
-	<h2>Ensayos</h2>
+	<h2>Textos</h2>
 	<ul>
-		{% for essay in site.primary-essays %}
-		<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;" class="hideme">
-			<li class="essay-card">
-				<i class="fas fa-file-pdf"></i>
-				<div class="text">
-					<h4>{{essay}}</h4>
-				</div>
-			</li>
-		</a>
+		{% for primary_essay in site.static_files %}
+			{% if primary_essay.path contains 'essays/primary' %}
+			{% assign name = primary_essay.name | split: '.' %}
+			{% assign name = name[0] %}
+			<a href="{{site.baseurl}}/{{primary_essay.path}}" target="_blank" style="border-bottom: none;" class="hideme">
+				<li class="essay-card">
+					<i class="fas fa-file-pdf"></i>
+					<div class="text">
+						<h4>{{name}}</h4>
+					</div>
+				</li>
+			</a>
+			{% endif %}
 		{% endfor %}
 	</ul>
 	<div class="inner">
 		<ul class="sec-essays">
-			{% for essay in site.secondary-essays %}
-			<a href="{{site.baseurl}}/essays/{{essay}}" style="border-bottom: none;" class="hideme">
+			{% for sec_essay in site.static_files %}
+			{% if sec_essay.path contains 'essays/secondary' %}
+			{% assign name = sec_essay.name | split: '.' %}
+			{% assign name = name[0] %}
+			<a href="{{site.baseurl}}/{{sec_essay.path}}" target="_blank" style="border-bottom: none;" class="hideme">
 				<li class="essay-card-s">
 					<i class="fas fa-file-pdf"></i>
 					<div class="text">
-						<h4>{{essay}}</h4>
+						<h4>{{name}}</h4>
 					</div>
 				</li>
 			</a>
+			{% endif %}
 			{% endfor %}
 		</ul>
 	</div>

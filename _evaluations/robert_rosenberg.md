@@ -5,7 +5,8 @@ description: Veo a una persona que empezó con condiciones normales y siguió pr
 title: Evaluación de Ana María Oviedo
 header: |
   Profesor Robert E (Bobby) Rosenberg,
-  Área de Somática.
+  Área de Somática, Carrera de Artes Escénicas,
+  Pontificia Universidad Javeriana.
 image: /images/evaluations/bobby.png
 ---
 Como su profesor de “Principios de Somática I y II”, tuve la oportunidad de conocer a Ana María Oviedo desde sus inicios en la Carrera de Artes Escénicas y observar su evolución a través del área de somática. La recuerdo muy bien e, igual a muchos, al comienzo estaba un poco desorientada por la visión de nuestra carrera; pese a esto, siempre estaba abierta a investigar sobre sí misma. Sus logros fueron calificados en un rango de notas indicando que alcanzó los objetivos y que la calidad de su trabajo fue buena.  Como se puede apreciar en los comentarios citados directamente de su bitácora o de trabajos escritos, desde el primer semestre ya había empezado a captar la esencia y los beneficios de lo que sería uno de los ejes principales de su carrera—la educación somática.
@@ -35,11 +36,8 @@ Finalizo con una cita de su auto-evaluación:
 Evaluación hecha por:
 
 Profesor Robert E (Bobby) Rosenberg,
-
 Área de Somática, Carrera de Artes Escénicas,
-
 Pontificia Universidad Javeriana,
 
 Bogotá, Colombia
-
 28 marzo, 2019

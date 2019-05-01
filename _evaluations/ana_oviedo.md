@@ -5,7 +5,7 @@ title: Autoevaluación
 description: Tengo las herramientas técnicas e intelectuales necesarias para acercarme a procesos de creación o investigación en danza, actuación o somática.
 header: |
   Ana María Oviedo Cifuentes
-image: /images/evaluations/anaoviedo.jpg
+image: /images/evaluations/anaoviedo.jpeg
 ---
 
 

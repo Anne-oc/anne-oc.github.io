@@ -4,9 +4,16 @@
 # Site settings
 title: Ana Oviedo
 description: |
-  TEJO SUEÑOS COLECTIVOS Y BAILO ILUSIONES.
-  CREO FIELMENTE EN EL MOVIMIENTO DEL CUERPO
-  COMO UN MEDIO DE TRANSFORMACIÓN PERSONAL Y SOCIAL.
+  Tejo sueños colectivos y bailo ilusiones.
+  Creo fielmente en el movimiento del cuerpo
+  como un medio de transformación personal y social.
+artist_statement: |
+  Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a éste es a través de la danza contemporánea y se desplaza a otras disciplinas y áreas de interés, como la danza aérea y la salsa.
+
+  Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y apreciación de este como cuestión vital y de bien-estar. Lo que traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.
+
+  Mi reflexión gira en torno a la creación interdisciplinar, que transforme los microuniversos de quien participe de un evento escénico, en busca de un mismo fin: conmover. En cómo potenciar los cuerpos creadores ejecutantes y participantes, mediante la activación de un cuerpo vibrátil a través de experiencias sensoriales, tomando como experiencia primera, el encuentro con el otro. Pues, lo más lindo de las artes escénicas es el encuentro y la construcción de sentido y lenguajes por medio del diálogo de universos.
+
 owner: Alejandro Aristizabal # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: your-email@domain.com
@@ -58,14 +65,6 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
-
-primary-essays:
-  - Reflexión final, mi voz, original..docx
-  - Entrega final p.e Visión Somática.docx
-
-secondary-essays:
-  - Reflexión final, mi voz, original..docx
-  - Entrega final p.e Visión Somática.docx
 
 video-ids:
   - u3tDKsTqfFI
