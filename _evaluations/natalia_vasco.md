@@ -2,10 +2,10 @@
 layout: evaluation
 name: Natalia Vasco
 title: "Evaluación de pares: Ana María Oviedo"
-description: ha transformado su cuerpo, ha mejorado su dominio técnico y ha ampliado su cualidad de acción.
+description: Observo en ella el afecto como motor para su entrenamiento pues, en un medio tradicionalmente desprovisto del mismo, considero que este es un valor diferenciable como artista escénica.
 header: |
-  Natalia Vasco
-image: /images/evaluations/default.jpg
+
+image: /images/evaluations/nataliavasco.jpg
 ---
 
 A lo largo de la carrera he evidenciado cómo Ana María ha desarrollado una práctica constante que abarca diferentes lenguajes de las artes escénicas como la danza y el circo, atravesados por la elaboración de preguntas de investigación desde la somática. A partir del 2016, he compartido su proceso en la carrera desde la creación y el entrenamiento técnico.
@@ -17,7 +17,7 @@ Habiendo dicho esto, encuentro un potencial de desarrollo para Ana en establecer
 
 Ahora bien, en el contexto del ballet clásico, evidencio un desarrollo en la resistencia y fortaleza muscular que le ha permitido asimilar los contenidos y reconocerse dentro de la forma. De esta manera, logra tener un dominio técnico  que parte desde la activación muscular (glúteo medio) para generar la rotación y no desde la forma que esto requiere. Igualmente, esto le ha otorgado un mayor equilibrio en el centro.
 
-Por último, destaco la insistencia que tiene Ana al aproximarse a su proceso en la danza. Es a través una paciencia consigo misma que ha transformado su cuerpo, ha mejorado su dominio técnico y ha ampliado su cualidad de acción, lo que en últimas le ha permitido recuperarse de lesiones físicas. Aparece aquí resiliencia como elemento característico en Ana. De esta manera, reconoce las técnicas básicas no solo como un espacio técnico, sino como un laboratorio de investigación de su propio movimiento. Así, observo en ella el afecto como motor para su entrenamiento pues, en un medio tradicionalmente desprovisto del mismo, considero que este es un valor diferenciable como artista escénica.
+Por último, destaco la insistencia que tiene Ana al aproximarse a su proceso en la danza. Es a través una paciencia consigo misma que ha transformado su cuerpo, ha mejorado su dominio técnico y ha ampliado su cualidad de acción, lo que en últimas le ha permitido recuperarse de lesiones físicas. Aparece aquí la resiliencia como elemento característico en Ana. De esta manera, reconoce las técnicas básicas no solo como un espacio técnico, sino como un laboratorio de investigación de su propio movimiento. Así, observo en ella el afecto como motor para su entrenamiento pues, en un medio tradicionalmente desprovisto del mismo, considero que este es un valor diferenciable como artista escénica.
 
 Pasando al área de investigación, en el laboratorio de voz cantada evidencio en Ana una pregunta en primer lugar técnica por el aparato fonatorio, así como las posibilidades de la voz como elemento expresivo. Es por medio del cuerpo que Ana ha encontrado una conexión con su voz, pues es a través de este que construye sonido. De esta manera, el conocimiento técnico que aún está en desarrollo se ubica en la sensación del cuerpo y generación de imágenes como método de aprendizaje.
 

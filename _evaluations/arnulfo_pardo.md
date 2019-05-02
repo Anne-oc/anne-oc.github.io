@@ -2,9 +2,8 @@
 layout: evaluation
 name: Arnulfo Pardo
 title: Evaluación para la estudiante Ana María Oviedo.
-description: Cuenta con gran talento y compromiso que estoy seguro, serán sus características diferenciadoras como artista.
+description: Una Team Player excepcional con la que fue fácil comunicarse y discutir sobre aspectos conceptuales de la obra, para lograr encontrar nuevas cualidades de movimiento y el vocabulario físico propio para esa investigación escénica.
 header: |
-  Arnulfo Pardo
   Bailarín, Coreógrafo y Docente.
   Director Departamento Artes escénicas.
   Facultad de Artes, Pontificia Universidad Javeriana.

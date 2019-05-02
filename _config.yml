@@ -8,24 +8,27 @@ description: |
   Creo fielmente en el movimiento del cuerpo
   como un medio de transformación personal y social.
 artist_statement: |
-  Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a éste es a través de la danza contemporánea y se desplaza a otras disciplinas y áreas de interés, como la danza aérea y la salsa.
+  Tejo sueños colectivos y bailo ilusiones. Creo fielmente en el movimiento del cuerpo como un medio de transformación personal y social. Mi aproximación a este es a través de la danza contemporánea y se desplaza hacia otras disciplinas y áreas de interés, como la danza aérea y la salsa.
 
-  Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y apreciación de este como cuestión vital y de bien-estar. Lo que traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.
+  Como ejecutante - creadora, he desarrollado una capacidad de auto-observación y auto-conocimiento, frente al movimiento y la apreciación de este como cuestión vital y de bien-estar. Esto lo traduzco en una práctica somática consciente en mi medio personal, que, trasciende al artístico.
 
-  Mi reflexión gira en torno a la creación interdisciplinar, que transforme los microuniversos de quien participe de un evento escénico, en busca de un mismo fin: conmover. En cómo potenciar los cuerpos creadores ejecutantes y participantes, mediante la activación de un cuerpo vibrátil a través de experiencias sensoriales, tomando como experiencia primera, el encuentro con el otro. Pues, lo más lindo de las artes escénicas es el encuentro y la construcción de sentido y lenguajes por medio del diálogo de universos.
+  Mi reflexión gira en torno a la creación interdisciplinar. Busco transformar, a partir de esta, los microuniversos de quien participa de un evento escénico, en busca de un mismo fin: conmover. Me cuestiono cómo potenciar los cuerpos ejecutantes, creadores y participantes, mediante la activación de un cuerpo vibrátil a través de experiencias sensoriales, tomando como experiencia primera, el encuentro con el otro. Es allí que se revela lo más emotivo de las artes escénicas, en el encuentro y la construcción de sentido y lenguajes por medio del diálogo entre universos.
+
 
 owner: Alejandro Aristizabal # or company name
 owner_page: https://github.com/aristizabal95
 first_published: 2019 # if migrating another site, the year of your first publish
-email: alejandro.aristizabal24@gmail.com
-# baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
-baseurl: "/" # the subpath of your site, e.g. /blog
+email: amoc52@hotmail.com
+#email: alejandro.aristizabal24@gmail.com
+alt_email: a.oviedo.c97@gmail.com
+baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
+# baseurl: "/" # the subpath of your site, e.g. /blog
 url: "anaoviedo.tk" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
+  #twitter: https://twitter.com/<username>
   #github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
+  #linkedin-square: https://linkedin.com/in/<username>
+  #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
   email: /contact.html
   #flickr:

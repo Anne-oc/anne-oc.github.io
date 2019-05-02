@@ -36,6 +36,7 @@
 					dots: true,
 				})
 				$('.flexslider').slick({
+					lazyload: 'ondemand',
 					infinite: true,
 					fade: true,
 					arrows: false,

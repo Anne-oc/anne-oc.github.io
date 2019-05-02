@@ -1,10 +1,9 @@
 ---
 layout: evaluation
 name: Robert Rosenberg
-description: Veo a una persona que empezó con condiciones normales y siguió progresando hasta lograr un muy buen nivel de transformación a través de la educación somática.
+description: Su buen nivel de trabajo en equipo muestra que las ideas de lo sistémico alcanzan no solamente para ella misma, como soma, sino para los sistemas que componen su entorno y su comunidad. 
 title: Evaluación de Ana María Oviedo
 header: |
-  Profesor Robert E (Bobby) Rosenberg,
   Área de Somática, Carrera de Artes Escénicas,
   Pontificia Universidad Javeriana.
 image: /images/evaluations/bobby.png

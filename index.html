@@ -6,9 +6,6 @@ layout: landing
 	<div class="inner">
 		<h2>{{ site.title }}</h2>
 		<p><i>{{ site.description | markdownify | newline_to_br }}</i></p>
-		<ul class="actions">
-			<li><a href="{{site.baseurl}}/contact.html" class="button special">Contactar</a></li>
-		</ul>
 	</div>
 	<a href="#artiststatement" class="more scrolly">Más información</a>
 </section>
@@ -18,9 +15,11 @@ layout: landing
 	<div class="inner">
 		<header class="major">
 			<h2 class="large-title">Artist Statement</h2>
-			<p>{{site.artist_statement | newline_to_br}}</p>
-			<div class="image round">
-				<img src="{{site.baseurl}}/images/profile.jpeg">
+			<div class="as-content">
+				<div class="image round">
+					<img src="{{site.baseurl}}/images/profile.jpeg">
+				</div>
+				<p>{{site.artist_statement | newline_to_br}}</p>
 			</div>
 		</header>
 	</div>
@@ -62,7 +61,7 @@ layout: landing
 			{% for image in site.static_files %}
 			{% if image.path contains 'images/gallery' %}
 			<div class="slide">
-				<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+				<img data-lazy="{{ site.baseurl }}{{ image.path }}" alt="image">
 			</div>
 			{% endif %}
 			{% endfor %}
@@ -82,7 +81,7 @@ layout: landing
 
 <!-- Essays -->
 <section id="essays" class="wrapper style7 special">
-	<h2>Textos</h2>
+	<h2>Investigaciones</h2>
 	<ul>
 		{% for primary_essay in site.static_files %}
 			{% if primary_essay.path contains 'essays/primary' %}
@@ -183,12 +182,10 @@ sed condimentum</h2>
 <section id="cta" class="wrapper style4">
 	<div class="inner">
 		<header>
-			<h2>Arcue ut vel commodo</h2>
-			<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+			<h2>Ana María Oviedo</h2>
 		</header>
 		<ul class="actions vertical">
 			<li><a href="{{ site.baseurl }}/contact.html" class="button fit special">Contactar</a></li>
-			<li><a href="#artiststatement" class="button fit scrolly">Saber más</a></li>
 		</ul>
 	</div>
 </section>

@@ -2,9 +2,9 @@
 layout: evaluation
 name: Sara Regina Fonseca
 title: Evaluación de Ana María Oviedo.
-description: El rigor y la madurez que la caracterizan van a garantizar que se desempeñe muy bien en los compromisos que decida adquirir.
+description: Es una valiente y una apasionada por lo que hace.
 header: |
-  Sara Regina Fonseca
+
 image: /images/evaluations/sarafonseca.jpg
 ---
 

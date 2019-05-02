@@ -1,10 +1,9 @@
 ---
 layout: evaluation
 name: Valentina Ramírez
-description: Trata a las personas con quienes trabaja de la misma forma que trata su cuerpo, con cuidado y dedicación.
+description: Quiero resaltar que Ana María trata a las personas con quienes trabaja de la misma forma que trata su cuerpo, con cuidado y dedicación.
 title: Evaluación de pares de Ana María Oviedo
 header: |
-  Valentina Ramírez,
   Artista escénica con enfasis en danza y circo.
 image: /images/evaluations/valeramirez.png
 ---

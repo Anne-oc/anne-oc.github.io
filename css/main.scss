@@ -2147,37 +2147,44 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.ev-header-content {
 		position: relative;
-		@include breakpoint(xsmall) {
+		@include breakpoint(medium) {
+			display: unset;
+		}
+		display: table-cell;
+		@include breakpoint(medium) {
 			height: auto;
 		}
 		height: 12em;
 		& .image {
-			@include breakpoint(xsmall) {
+			@include breakpoint(medium) {
 				left: 50%;
 				transform: translate(-50%, 0%);
 				float: none;
+				display: inline-block;
 			}
+			display: table-cell;
 			float: left;
 		}
 	}
 
 	.ev-title {
-		@include breakpoint(xsmall) {
+		@include breakpoint(medium) {
 			text-align: center;
 			width: 100%;
 			float: none;
 		}
 		@include breakpoint(medium) {
 			position: inherit;
+				display: unset;
 		}
 		width: 70%;
 		padding-top: 1em;
-		display: inline-block;;
+		display: table-cell;
 		float: left;
 	}
 
 	.ev-subtitle {
-		@include breakpoint(xsmall) {
+		@include breakpoint(medium) {
 			text-align: center;
 			width: 100%;
 			float: none;
@@ -2218,6 +2225,34 @@ $baseurl: '{{ site.baseurl }}/images';
 	#artiststatement {
 		p {
 			text-align: justify;
+		}
+	}
+
+	.as-content {
+		@include breakpoint(medium) {
+			display: block;
+		}
+		display: table;
+		.image.round {
+			@include breakpoint(medium) {
+				display: block;
+			}
+			display: table-cell;
+			img {
+				display: inline;
+				@include breakpoint(xsmall) {
+					width: 15em;
+					height: 15em;
+				}
+				width: 20em;
+				height: 20em;
+			}
+		}
+		p {
+			@include breakpoint(medium) {
+				display: block;
+			}
+			display: table-cell;
 		}
 	}
 
