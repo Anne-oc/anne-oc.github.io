@@ -88,7 +88,7 @@ layout: landing
 			{% if primary_essay.path contains 'essays/primary' %}
 			{% assign name = primary_essay.name | split: '.' %}
 			{% assign name = name[0] %}
-			<a href="{{site.baseurl}}/{{primary_essay.path}}" target="_blank" style="border-bottom: none;" class="hideme">
+			<a href="{{site.url}}/{{site.baseurl}}/{{primary_essay.path}}" target="_blank" style="border-bottom: none;" class="hideme">
 				<li class="essay-card">
 					<i class="fas fa-file-pdf"></i>
 					<div class="text">
@@ -105,7 +105,7 @@ layout: landing
 			{% if sec_essay.path contains 'essays/secondary' %}
 			{% assign name = sec_essay.name | split: '.' %}
 			{% assign name = name[0] %}
-			<a href="{{site.baseurl}}/{{sec_essay.path}}" target="_blank" style="border-bottom: none;" class="hideme">
+			<a href="http://{{site.url}}/{{site.baseurl}}/{{sec_essay.path}}" target="_blank" style="border-bottom: none;" class="hideme">
 				<li class="essay-card-s">
 					<i class="fas fa-file-pdf"></i>
 					<div class="text">
