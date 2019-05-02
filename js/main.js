@@ -38,6 +38,7 @@
 				$('.flexslider').slick({
 					infinite: true,
 					fade: true,
+					arrows: false,
 					asNavFor: '.carousel',
 				})
 				$('.carousel').slick({
