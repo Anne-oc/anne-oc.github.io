@@ -2056,7 +2056,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		& .slick-track {
 			@include breakpoint(large) {
-				height: 600px;
+				height: 60vh;
 			}
 			@include breakpoint(medium) {
 				height: 500px;
@@ -2067,7 +2067,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include breakpoint(xsmall) {
 				height: 200px;
 			}
-			height: 600px;
+			height: 60vh;
 		}
 
 		& .slide {
@@ -2094,10 +2094,12 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.flexslider {
 		//background-color: rgba(0,0,0,0.5);
-
+		button {
+			box-shadow: 0 0 0 0;
+		}
 		& .slick-track {
 			@include breakpoint(large) {
-				height: 600px;
+				height: 60vh;
 			}
 			@include breakpoint(medium) {
 				height: 500px;
@@ -2108,7 +2110,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include breakpoint(xsmall) {
 				height: 200px;
 			}
-			height: 600px;
+			height: 60vh;
 		}
 
 		& .slide {

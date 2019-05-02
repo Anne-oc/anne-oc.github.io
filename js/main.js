@@ -37,7 +37,7 @@
 				})
 				$('.flexslider').slick({
 					infinite: true,
-					arrows: false,
+					arrows: true,
 					fade: true,
 					asNavFor: '.carousel',
 				})
