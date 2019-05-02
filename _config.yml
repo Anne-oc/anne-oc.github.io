@@ -15,18 +15,19 @@ artist_statement: |
   Mi reflexión gira en torno a la creación interdisciplinar, que transforme los microuniversos de quien participe de un evento escénico, en busca de un mismo fin: conmover. En cómo potenciar los cuerpos creadores ejecutantes y participantes, mediante la activación de un cuerpo vibrátil a través de experiencias sensoriales, tomando como experiencia primera, el encuentro con el otro. Pues, lo más lindo de las artes escénicas es el encuentro y la construcción de sentido y lenguajes por medio del diálogo de universos.
 
 owner: Alejandro Aristizabal # or company name
+owner_page: https://github.com/aristizabal95
 first_published: 2019 # if migrating another site, the year of your first publish
-email: your-email@domain.com
-baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
-# baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+email: alejandro.aristizabal24@gmail.com
+# baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "anaoviedo.tk" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
+  #github: https://github.com/<username>
   linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  email: /contact/
   #flickr:
   #instagram:
   #youtube-square:

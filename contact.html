@@ -1,0 +1,26 @@
+---
+layout: page
+title: contacto
+---
+<h4>Contacto</h4>
+<p>Agrega tu nombre y correo, y dime qué necesitas para mantenernos en contacto.</p>
+<section>
+  <form method="POST" action="https://api.slapform.com/{{site.email}}">
+    <div class="row uniform">
+      <div class="6u 12u$(xsmall)">
+        <input type="text" name="name" id="demo-name" value="" placeholder="Nombre" />
+      </div>
+      <div class="6u$ 12u$(xsmall)">
+        <input type="email" name="email" id="demo-email" value="" placeholder="Correo" />
+      </div>
+      <div class="12u$">
+        <textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+      </div>
+      <div class="12u$">
+        <ul class="actions">
+          <li><input type="submit" value="Enviar" class="special" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</section>

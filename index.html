@@ -6,8 +6,11 @@ layout: landing
 	<div class="inner">
 		<h2>{{ site.title }}</h2>
 		<p><i>{{ site.description | markdownify | newline_to_br }}</i></p>
+		<ul class="actions">
+			<li><a href="{{site.baseurl}}/contact.html" class="button special">Contactar</a></li>
+		</ul>
 	</div>
-	<a href="#artiststatement" class="more scrolly">Learn More</a>
+	<a href="#artiststatement" class="more scrolly">Más información</a>
 </section>
 
 <!-- One -->
@@ -184,8 +187,8 @@ sed condimentum</h2>
 			<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
 		</header>
 		<ul class="actions vertical">
-			<li><a href="#" class="button fit special">Activate</a></li>
-			<li><a href="#" class="button fit">Learn More</a></li>
+			<li><a href="{{ site.baseurl }}/contact.html" class="button fit special">Contactar</a></li>
+			<li><a href="#artiststatement" class="button fit scrolly">Saber más</a></li>
 		</ul>
 	</div>
 </section>
