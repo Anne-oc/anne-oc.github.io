@@ -18,8 +18,8 @@ owner: Alejandro Aristizabal # or company name
 owner_page: https://github.com/aristizabal95
 first_published: 2019 # if migrating another site, the year of your first publish
 email: alejandro.aristizabal24@gmail.com
-baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
-# baseurl: "/" # the subpath of your site, e.g. /blog
+# baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "anaoviedo.tk" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
