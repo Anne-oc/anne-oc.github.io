@@ -1,12 +1,16 @@
 ---
 layout: evaluation
 name: Robert Rosenberg
-description: Su buen nivel de trabajo en equipo muestra que las ideas de lo sistémico alcanzan no solamente para ella misma, como soma, sino para los sistemas que componen su entorno y su comunidad. 
+description: Su buen nivel de trabajo en equipo muestra que las ideas de lo sistémico alcanzan no solamente para ella misma, como soma, sino para los sistemas que componen su entorno y su comunidad.
 title: Evaluación de Ana María Oviedo
 header: |
   Área de Somática, Carrera de Artes Escénicas,
   Pontificia Universidad Javeriana.
 image: /images/evaluations/bobby.png
+bio: |
+  Se certificó como profesor de la Técnica Alexander en The Alexander Training Institute of San Francisco. Su investigación se centra en la educación somática.
+
+  Actualmente trabaja medio tiempo como profesor en el Área de Somática en el Departamento de Artes Escénicas, es coordinador del Diplomado Educación Somática en las Artes, y enseña Técnica Alexander para Músicos en la Maestría en Música en la Javeriana.
 ---
 Como su profesor de “Principios de Somática I y II”, tuve la oportunidad de conocer a Ana María Oviedo desde sus inicios en la Carrera de Artes Escénicas y observar su evolución a través del área de somática. La recuerdo muy bien e, igual a muchos, al comienzo estaba un poco desorientada por la visión de nuestra carrera; pese a esto, siempre estaba abierta a investigar sobre sí misma. Sus logros fueron calificados en un rango de notas indicando que alcanzó los objetivos y que la calidad de su trabajo fue buena.  Como se puede apreciar en los comentarios citados directamente de su bitácora o de trabajos escritos, desde el primer semestre ya había empezado a captar la esencia y los beneficios de lo que sería uno de los ejes principales de su carrera—la educación somática.
 

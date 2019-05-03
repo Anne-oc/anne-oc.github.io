@@ -6,6 +6,12 @@ description: Es una valiente y una apasionada por lo que hace.
 header: |
 
 image: /images/evaluations/sarafonseca.jpg
+
+bio: |
+  Egresada del Instituto Colombiano de Ballet INCOLBALLET de Cali, obtuvo un pre-grado en Danza Teatro del Laban Centre de Londres, una especialización en Estudios del Teatro y una Maestría en Estudios de la Danza de la Universidad de Estocolmo. Ha trabajado principalmente en Inglaterra, Suecia y Colombia, siendo bailarina y/o coreógrafa con diferentes compañías y proyectos independientes
+
+  “Uno puede sumergirse en una gota de agua y mirar desde allí el universo entero”, dice el maestro Jacques Lecoq. Esta cita describe muy bien mi relación con la danza. Una disciplina bastante concreta desde donde organizo mi manera de pensar, sentir y estar en el mundo. Me interesa la dialéctica entre el cuerpo expresivo y el cuerpo político, categorías que, sin ser estrictamente contrarias, tienden a ser vivenciadas de maneras contrastantes. Desde esta gota se despliega el infinito, y allí surgen las preguntas que me permiten revitalizar permanentemente mis oficios como bailarina, creadora y docente; oficios que en mi caso son absolutamente interdependientes.
+
 ---
 
 Conocí a Ana María en la asignatura de Principios de la Danza II. Luego volví a trabajar con ella en las asignaturas de Puesta en Escena Historia de la Danza Siglos XIX y XX, Laboratorio de Laban y Técnica Básica de Danza Contemporánea/ Release.

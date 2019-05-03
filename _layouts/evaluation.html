@@ -35,6 +35,13 @@
             </div>
             {{ content }}
           </div>
+          {% if page.bio %}
+            <hr>
+            <h5>{{page.name}}</h5>
+            <blockquote>
+              {{ page.bio | newline_to_br}}
+            </blockquote>
+          {% endif %}
         </section>
 
       </article>
