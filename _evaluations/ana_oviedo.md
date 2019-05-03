@@ -2,7 +2,7 @@
 layout: evaluation
 name: Ana María Oviedo Cifuentes
 title: Autoevaluación
-description: Tengo las herramientas técnicas e intelectuales necesarias para acercarme a procesos de creación o investigación en danza, actuación o somática.
+description: Sé que tengo las herramientas necesarias para acercarme a procesos de creación e investigación.
 header: |
   Artista escénica con énfasis en Danza y Somática.
 image: /images/evaluations/anaoviedo.jpeg
