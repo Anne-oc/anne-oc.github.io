@@ -53,6 +53,9 @@
 					focusOnSelect: true,
 					variableWidth: true,
 				})
+				$('img[data-lazyload]').each(function(){
+					$(this).attr('src', $(this).attr('data-lazyload'));
+				})
 				$(window).scroll(function() {
 					$('.hideme').each(function(i){
 						var isvisible = false;
