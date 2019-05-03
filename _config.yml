@@ -21,8 +21,8 @@ first_published: 2019 # if migrating another site, the year of your first publis
 email: amoc52@hotmail.com
 #email: alejandro.aristizabal24@gmail.com
 alt_email: a.oviedo.c97@gmail.com
-# baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/AnaOviedo" # the subpath of your site, e.g. /blog
+# baseurl: "/" # the subpath of your site, e.g. /blog
 url: "anaoviedo.tk" # the base hostname & protocol for your site
 social:
   #twitter: https://twitter.com/<username>
