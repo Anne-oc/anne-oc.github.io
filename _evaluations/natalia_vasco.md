@@ -4,7 +4,7 @@ name: Natalia Vasco
 title: "Evaluación de pares: Ana María Oviedo"
 description: Observo en ella el afecto como motor para su entrenamiento pues, en un medio tradicionalmente desprovisto del mismo, considero que este es un valor diferenciable como artista escénica.
 header: |
-
+  Artista Visual con énfasis audiovisual y artista escénica con énfasis en danza. 
 image: /images/evaluations/nataliavasco.jpg
 ---
 

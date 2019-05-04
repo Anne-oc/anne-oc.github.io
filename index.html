@@ -56,12 +56,20 @@ layout: landing
 <section id="gallery" class="wrapper style3 special">
 	<!--<div class="inner">-->
 	<h2>Galería</h2>
-	<div class="gallery-content">
+	<div class="gallery-content inner">
 		<div class="flexslider">
 			{% for image in site.static_files %}
 			{% if image.path contains 'images/gallery' %}
 			<div class="slide">
-				<img data-lazy="{{ site.baseurl }}{{ image.path }}" alt="image">
+					<img data-lazy="{{ site.baseurl }}{{ image.path }}" alt="image">
+					{% assign text = image.name | split: '|' %}
+					{% assign sentences = text[1] | split: ',' %}
+					<p class="slide-desc">
+						{% for sentence in sentences %}
+						{{sentence}}<br/>
+						{% endfor %}
+					</p>
+				</img>
 			</div>
 			{% endif %}
 			{% endfor %}

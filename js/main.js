@@ -68,6 +68,17 @@
 						}
 					})
 				});
+				$('.dropdown-trigger').click(function(){
+					var $dropdown = $(this).parent().find('.dropdown');
+					if ($dropdown.hasClass("active")) {
+						console.log("DEACTIVATING");
+						$dropdown.removeClass("active")
+					}
+					else {
+						console.log("ACTIVATING")
+						$dropdown.addClass("active")
+					}
+				})
 			});
 
 		// Mobile?
