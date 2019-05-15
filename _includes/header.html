@@ -17,8 +17,7 @@
             <li class="dropdown">
               <ul>
                 {% for my_page in site.evaluations %}
-                {% if my_page.title == "Autoevaluación" %}
-                {% else %}
+                {% if my_page.title != "Autoevaluación" %}
                 <li><a href="{{ my_page.url | prepend: site.baseurl }}">- {{ my_page.name }}</a></li>
                 {% endif %}
                 {% endfor %}
