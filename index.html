@@ -4,22 +4,22 @@ layout: landing
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<h2>{{ site.title }}</h2>
-		<p><i>{{ site.description | markdownify | newline_to_br }}</i></p>
+		<h2 class="editable">{{ site.title }}</h2>
+		<p><i class="editable">{{ site.description | markdownify | newline_to_br }}</i></p>
 	</div>
-	<a href="#artiststatement" class="more scrolly">Más información</a>
+	<a href="#artiststatement" class="more scrolly editable">Más información</a>
 </section>
 
 <!-- One -->
 <section id="artiststatement" class="wrapper style1 special">
 	<div class="inner">
 		<header class="major">
-			<h2 class="large-title">Artist Statement</h2>
+			<h2 class="large-title editable">Artist Statement</h2>
 			<div class="as-content">
 				<div class="image round">
 					<img src="{{site.baseurl}}/images/profile.jpeg">
 				</div>
-				<p>{{site.artist_statement | newline_to_br}}</p>
+				<p class="editable">{{site.artist_statement | newline_to_br}}</p>
 			</div>
 		</header>
 	</div>
