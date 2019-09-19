@@ -1,23 +1,26 @@
 ---
 layout: landing
+
+video-ids:
+  - cM_t1admERg
 ---
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<h2>{{ site.title }}</h2>
-		<p><i>{{ site.description | markdownify | newline_to_br }}</i></p>
+		<h2 class="editable">{{ site.title }}</h2>
+		<p><i class="editable">{{ site.description | markdownify | newline_to_br }}</i></p>
 	</div>
-	<a href="#artiststatement" class="more scrolly">Más información</a>
+	<a href="#artiststatement" class="more scrolly editable">Más información</a>
 </section>
 
 <!-- One -->
 <section id="artiststatement" class="wrapper style1 special">
 	<div class="inner">
 		<header class="major">
-			<h2 class="large-title">Artist Statement</h2>
+			<h2 class="large-title editable">Artist Statement</h2>
 			<div class="as-content">
 				<div class="image round">
-					<img src="{{site.baseurl}}/images/profile.jpeg">
+					<img src="{{site.baseurl}}/images/profile.jpeg" class="editable">
 				</div>
 				<p>{{site.artist_statement | newline_to_br}}</p>
 			</div>
@@ -28,10 +31,10 @@ layout: landing
 <!-- Videos -->
 <section id="videos" class="wrapper style8 special">
 	<!--<div class="inner">-->
-	<h2>Reel</h2>
+	<h2 class="editable">Reel</h2>
 	<div class="inner gallery-content">
 		<div class="videoslider">
-			{% for id in site.video-ids %}
+			{% for id in page.video-ids %}
 			<div class="slide">
 				<iframe src="https://www.youtube.com/embed/{{id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
@@ -55,7 +58,7 @@ layout: landing
 <!-- Gallery -->
 <section id="gallery" class="wrapper style3 special">
 	<!--<div class="inner">-->
-	<h2>Galería</h2>
+	<h2 class="editable">Galería</h2>
 	<div class="gallery-content inner">
 		<div class="flexslider">
 			{% for image in site.data.gallery %}
@@ -84,7 +87,7 @@ layout: landing
 
 <!-- Essays -->
 <section id="essays" class="wrapper style7 special">
-	<h2>Investigaciones</h2>
+	<h2 class="editable">Investigaciones</h2>
 	<ul>
 		{% for primary_essay in site.static_files %}
 			{% if primary_essay.path contains 'essays/primary' %}
@@ -152,7 +155,7 @@ sed condimentum</h2>
 <section id="evaluations" class="wrapper style3 special">
 	<div class="inner">
 		<header class="major">
-			<h2>Evaluaciones</h2>
+			<h2 class="editable">Evaluaciones</h2>
 			<!--<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
 			fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>-->
 		</header>
@@ -185,10 +188,10 @@ sed condimentum</h2>
 <section id="cta" class="wrapper style4">
 	<div class="inner">
 		<header>
-			<h2>Ana María Oviedo</h2>
+			<h2 class="editable">Ana María Oviedo</h2>
 		</header>
 		<ul class="actions vertical">
-			<li><a href="{{ site.baseurl }}/contact.html" class="button fit special">Contactar</a></li>
+			<li><a href="{{ site.baseurl }}/contact.html" class="button fit special editable">Contactar</a></li>
 		</ul>
 	</div>
 </section>
