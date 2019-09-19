@@ -33,7 +33,7 @@ video-ids:
 	<h2 class="editable">Reel</h2>
 	<div class="inner gallery-content">
 		<div class="videoslider">
-			{% for id in video-ids %}
+			{% for id in page.video-ids %}
 			<div class="slide">
 				<iframe src="https://www.youtube.com/embed/{{id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
