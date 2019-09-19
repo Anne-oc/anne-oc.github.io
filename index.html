@@ -4,11 +4,17 @@ layout: landing
 video-ids:
   - cM_t1admERg
 ---
+
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<h2 class="editable">{{ site.title }}</h2>
-		<p><i class="editable">{{ site.description | markdownify | newline_to_br }}</i></p>
+		<h2 class="editable">
+		  Ana Oviedo
+		</h2>
+		<p><i class="editable"><p>Tejo sueños colectivos y bailo ilusiones.<br />
+Creo fielmente en el movimiento del cuerpo<br />
+como un medio de transformación personal y social.</p><br />
+</i></p>
 	</div>
 	<a href="#artiststatement" class="more scrolly editable">Más información</a>
 </section>
@@ -17,10 +23,12 @@ video-ids:
 <section id="artiststatement" class="wrapper style1 special">
 	<div class="inner">
 		<header class="major">
-			<h2 class="large-title editable">Artist Statement</h2>
+			<h2 class="large-title editable">
+			  Artist Statement
+			</h2>
 			<div class="as-content">
 				<div class="image round">
-					<img src="{{site.baseurl}}/images/profile.jpeg" class="editable">
+					<img src="/images/profile.jpeg" class="editable" />
 				</div>
 				<p>{{site.artist_statement | newline_to_br}}</p>
 			</div>
@@ -31,7 +39,9 @@ video-ids:
 <!-- Videos -->
 <section id="videos" class="wrapper style8 special">
 	<!--<div class="inner">-->
-	<h2 class="editable">Reel</h2>
+	<h2 class="editable">
+	  Reel TEST
+	</h2>
 	<div class="inner gallery-content">
 		<div class="videoslider">
 			{% for id in page.video-ids %}
@@ -45,39 +55,41 @@ video-ids:
 			<div class="carousel">
 				{% for image in site.static_files %}
 				{% if image.path contains 'images/gallery' %}
-				<img src="{{ site.baseurl }}{{ image.path }}" alt="image">
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 				{% endif %}
 				{% endfor %}
 			</div>
-		</div>
+		
 		-->
-	</div>
+	
 	<!--</div>-->
 </section>
 
 <!-- Gallery -->
 <section id="gallery" class="wrapper style3 special">
 	<!--<div class="inner">-->
-	<h2 class="editable">Galería</h2>
+	<h2 class="editable">
+	  Galer&iacute;a
+	</h2>
 	<div class="gallery-content inner">
 		<div class="flexslider">
 			{% for image in site.data.gallery %}
 			<div class="slide">
-					<img data-lazy="{{ site.baseurl }}{{ image.path }}" alt="image">
+					<img data-lazy="{{ site.baseurl }}{{ image.path }}" alt="image" />
 					{% assign sentences = image.description | split: ',' %}
 					<p class="slide-desc">
 						{% for sentence in sentences %}
-						{{sentence}}<br/>
+						{{sentence}}<br />
 						{% endfor %}
 					</p>
-				</img>
+				
 			</div>
 			{% endfor %}
 		</div>
 		<div class="carousel-container">
 			<div class="carousel">
 				{% for image in site.data.gallery %}
-				<img data-lazyload="{{ site.baseurl }}{{ image.path }}" alt="image">
+				<img data-lazyload="{{ site.baseurl }}{{ image.path }}" alt="image" />
 				{% endfor %}
 			</div>
 		</div>
@@ -87,7 +99,9 @@ video-ids:
 
 <!-- Essays -->
 <section id="essays" class="wrapper style7 special">
-	<h2 class="editable">Investigaciones</h2>
+	<h2 class="editable">
+	  Investigaciones
+	</h2>
 	<ul>
 		{% for primary_essay in site.static_files %}
 			{% if primary_essay.path contains 'essays/primary' %}
@@ -155,7 +169,9 @@ sed condimentum</h2>
 <section id="evaluations" class="wrapper style3 special">
 	<div class="inner">
 		<header class="major">
-			<h2 class="editable">Evaluaciones</h2>
+			<h2 class="editable">
+			  Evaluaciones
+			</h2>
 			<!--<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
 			fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>-->
 		</header>
@@ -164,7 +180,7 @@ sed condimentum</h2>
 			<a href="{{site.baseurl}}{{evaluation.url}}" style="border-bottom: none;" class="hideme">
 				<li class="user-card">
 					<div class="image round">
-						<img src="{{site.baseurl}}{{evaluation.image}}">
+						<img src="{{site.baseurl}}{{evaluation.image}}" />
 					</div>
 					<div class="text">
 						<h3>
@@ -188,10 +204,12 @@ sed condimentum</h2>
 <section id="cta" class="wrapper style4">
 	<div class="inner">
 		<header>
-			<h2 class="editable">Ana María Oviedo</h2>
+			<h2 class="editable">
+			  Ana Mar&iacute;a Oviedo
+			</h2>
 		</header>
 		<ul class="actions vertical">
-			<li><a href="{{ site.baseurl }}/contact.html" class="button fit special editable">Contactar</a></li>
+			<li><a href="/contact.html" class="button fit special editable">Contactar</a></li>
 		</ul>
 	</div>
 </section>
