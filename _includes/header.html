@@ -1,19 +1,19 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
-  <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
+  <h1><a href="{{ site.baseurl }}/index.html" class="editable">{{ site.title }}</a></h1>
   <nav id="nav">
     <ul>
       <li class="special">
-        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <a href="#menu" class="menuToggle"><span class="editable">Menu</span></a>
         <div id="menu">
           <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/index.html#artiststatement" class="more scrolly">Artist Statement</a></li>
-            <li><a href="{{site.baseurl}}/index.html#videos" class="more scrolly">Reel</a></li>
-            <li><a href="{{site.baseurl}}/index.html#gallery" class="more scrolly">Galería</a></li>
-            <li><a href="{{site.baseurl}}/index.html#essays" class="more scrolly">Investigaciones</a></li>
-            <li><a href="{{site.baseurl}}/evaluations/ana_oviedo.html" class="more scrolly">Autoevaluación</a></li>
-            <li class="dropdown-trigger">Evaluaciones<i class="fas fa-angle-up"></i></li>
+            <li><a href="{{site.baseurl}}/index.html" class="editable">Home</a></li>
+            <li><a href="{{site.baseurl}}/index.html#artiststatement" class="more scrolly editable">Artist Statement</a></li>
+            <li><a href="{{site.baseurl}}/index.html#videos" class="more scrolly editable">Reel</a></li>
+            <li><a href="{{site.baseurl}}/index.html#gallery" class="more scrolly editable">Galería</a></li>
+            <li><a href="{{site.baseurl}}/index.html#essays" class="more scrolly editable">Investigaciones</a></li>
+            <li><a href="{{site.baseurl}}/evaluations/ana_oviedo.html" class="more scrolly editable">Autoevaluación</a></li>
+            <li class="dropdown-trigger editable">Evaluaciones<i class="fas fa-angle-up"></i></li>
             <li class="dropdown">
               <ul>
                 {% for my_page in site.evaluations %}
@@ -23,7 +23,7 @@
                 {% endfor %}
               </ul>
             </li>
-            <li><a href="{{site.baseurl}}/contact.html" class="more scrolly">Contacto</a></li>
+            <li><a href="{{site.baseurl}}/contact.html" class="more scrolly editable">Contacto</a></li>
           </ul>
         </div>
       </li>

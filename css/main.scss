@@ -2283,12 +2283,16 @@ $baseurl: '{{ site.baseurl }}/images';
 		font-size: 0 !important;
 		border-top: 0 !important;
 		transform: scaleY(0);
+		display: inline-block;
 		opacity: 0;
 		transition: opacity .25s,
 			transform .5s .25s,
 			font-size .1s .30s;
 		ul {
 			margin: 0 !important;
+			li {
+				display: inline-block;
+			}
 		}
 		&.active {
 			font-size: inherit !important;
@@ -2302,7 +2306,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	.dropdown-trigger {
 		border: 0;
 		color: inherit;
-		display: block;
+		display: inline-block;
 		font-size: 0.8em;
 		letter-spacing: _size(letter-spacing-alt);
 		outline: 0;
